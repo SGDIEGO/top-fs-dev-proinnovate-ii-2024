@@ -10,7 +10,6 @@
 
 - [Github](https://github.com/SGDIEGO/)
 - [Linkedin](linkedin.com/in/diego-segura-gutierrez-36858b224)
-- [Website](https://github.com/SGDIEGO/)
 
 ## Experiencia Tecnica
 
