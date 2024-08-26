@@ -2,15 +2,10 @@
 
 ## Mentores 👩🏻‍🏫👨🏼‍🏫
 - Shymmy W. Garcia
-- Mentor 2
-- Mentor 3
 
 ## Estudiantes 👩🏻‍💻🧑🏼‍💻
 
-- Estudiante 1
-- Estudiante 2
-- Estudiante 3
-- ...
+- [Diego Alonso Segura Gutierrez](./profiles/example-perfil-estudiante.md)
 
 ## Como es un dia de estudio durante el programa TOP?
 
