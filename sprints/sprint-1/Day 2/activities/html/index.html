@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comprehensive HTML Landing Page</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Linking to the provided CSS -->
+  <style>
+    /* Additional responsive styles */
+    @media (max-width: 768px) {
+      header nav ul {
+        text-align: center;
+        padding: 0;
+      }
+
+      header nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      form {
+        padding: 10px;
+      }
+
+      form input[type="text"],
+      form input[type="email"],
+      form select {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1, h2, h3 {
+        font-size: 1.5rem;
+      }
+
+      header {
+        padding: 10px 0;
+      }
+
+      footer {
+        padding: 5px 0;
+      }
+
+      progress, meter {
+        height: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#main-content">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to Our Comprehensive HTML Landing Page</h1>
+  </header>
+
+  <main id="main-content">
+    <section>
+      <h2>About Us</h2>
+      <p>We are a team of professionals dedicated to providing top-notch services in web development.</p>
+      <blockquote cite="https://www.example.com">"Our team excels in building great websites." - CEO, Example Corp</blockquote>
+      <figure>
+        <img src="example.jpg" alt="Team photo">
+        <figcaption>A picture of our amazing team.</figcaption>
+      </figure>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Web Development</li>
+        <li>Design</li>
+        <li>SEO Optimization</li>
+      </ul>
+      <details>
+        <summary>More Details</summary>
+        <p>We provide custom solutions tailored to your needs.</p>
+      </details>
+    </section>
+
+    <section>
+      <h2>Progress of Our Latest Project</h2>
+      <progress value="70" max="100">70%</progress>
+      <meter value="0.7">70%</meter>
+    </section>
+
+    <form action="/submit" method="post">
+      <fieldset>
+        <legend>Contact Us</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="services">Choose a service:</label>
+        <select id="services" name="services">
+          <optgroup label="Web Development">
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+          </optgroup>
+          <optgroup label="Design">
+            <option value="ui">UI Design</option>
+            <option value="ux">UX Design</option>
+          </optgroup>
+        </select>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+
+    <section>
+      <h2>Blog Articles</h2>
+      <article>
+        <header>
+          <h3>Understanding Web Development</h3>
+          <time datetime="2023-08-24">August 24, 2023</time>
+        </header>
+        <p>This article delves into the core concepts of modern web development...</p>
+        <footer>
+          <p>Written by <address><a href="mailto:author@example.com">Jane Doe</a></address></p>
+        </footer>
+      </article>
+    </section>
+
+    <section>
+      <h2>Code Example</h2>
+      <pre>
+        <code>
+          const greet = () => console.log('Hello, World!');
+          greet();
+        </code>
+      </pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Example Company</p>
+    <address>
+      123 Main Street, Anytown, USA
+    </address>
+  </footer>
+
+  <audio controls>
+    <source src="audiofile.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <video controls>
+    <source src="videofile.mp4" type="video/mp4">
+    Your browser does not support the video element.
+  </video>
+
+</body>
+
+</html>
